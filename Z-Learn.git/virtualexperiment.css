@@ -1,0 +1,57 @@
+ /* Add your existing CSS styles here */
+
+/* Additional styling for subject fieldsets */
+.subject-fieldset {
+    border: 2px solid #3498db; /* Fieldset border color */
+    border-radius: 15px; /* Radius for the fieldset */
+    margin-top: 20px;
+    padding: 15px; /* Add padding for content inside the fieldset */
+}
+
+
+/* Your existing styles here */
+
+/* Additional styles for the navigation bar */
+nav {
+    background-color: #007BFF;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+/* ... (existing styles) ... */
+   
+
+.subject-heading {
+    color: #3498db; /* Heading color */
+    font-size: 24px; /* Heading font size */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Additional styling for your home page */
+/* Add any other styling you need for the content within the page */
+
+fieldset a {
+    text-decoration: none;
+}

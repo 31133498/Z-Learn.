@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zlearn - Contact</title>
+    <!-- Include your existing CSS link here -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Log Out Button -->
+        <li class="logout-button"><button onclick="logout()">Log Out</button></li>
+    </ul>
+</nav>
+
+<!-- Main Content - Contact Form -->
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Have questions or suggestions? Reach out to us!</p>
+
+    <!-- Contact Form -->
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<!-- Include your existing JavaScript code here -->
+<script>
+    function logout() {
+        // Add any logout logic here if needed
+        // For now, redirect to the login page
+        window.location.href = "loginpage.html";
+    }
+</script>
+
+</body>
+</html>

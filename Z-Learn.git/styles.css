@@ -1,0 +1,336 @@
+/* Your existing styles here */
+
+/* Additional styles for the registration form */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Your existing styles here */
+
+/* Additional styles for the registration form */
+body {
+    background-color: #f0f0f0;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Your existing styles here */
+
+/* Additional styles for the navigation bar */
+nav {
+    background-color: #007BFF;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+/* ... (existing styles) ... */
+
+/* Additional styles for the login page */
+#login {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ /* Add this to your existing CSS styles */
+nav .logout {
+    float: right;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    nav .logout {
+        float: none;
+        margin-top: 10px;
+    }
+}
+
+/* Existing styles remain unchanged */
+
+/* Add styles for the dashboard */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-section img {
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+.update-section {
+    margin-top: 30px;
+}
+
+.update-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.update-section p {
+    color: #555;
+}
+
+.update-section button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-section button:hover {
+    background-color: #0056b3;
+}
+
+.features-bar {
+    margin-top: 30px;
+}
+
+.features-bar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.features-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-bar li {
+    margin-bottom: 10px;
+}
+
+.features-bar a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.features-bar a:hover {
+    text-decoration: underline;
+}
+/* Add your existing CSS styles here */
+
+/* Styles for Features Page */
+.features-page .features-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.features-page .feature {
+    margin-bottom: 30px;
+}
+
+.features-page .feature h2 {
+    margin-bottom: 10px;
+}
+
+.features-page .logout-button {
+    margin-left: auto;
+}
+
+/* Add your existing CSS styles here */
+
+/* Style for the fieldsets */
+fieldset {
+    border: 2px solid #3498db; /* Matching color, adjust as needed */
+    border-radius: 10px; /* Beautiful radius design, adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Legend style for each fieldset */
+legend {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #3498db; /* Matching color, adjust as needed */
+}
+
+/* Additional styling for your features page */
+/* Add any other styles specific to your features page */
+
+
+/* Navigation Bar Styles */
+.features-page nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.features-page nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.features-page nav li {
+    float: left;
+}
+
+.features-page nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.features-page nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
